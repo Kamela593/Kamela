@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html Palma="kamela">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Taylor</title>
+
+    <style>
+          /* Reset default styles */
+        * {
+            margin: 7.5px;
+            padding: 10px;
+            box-sizing: border-box;
+            font-family: Sudestada;
+        }
+
+	body {
+            background-color:#ffb3ba }
+
+        /* Grid Layout */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-template-areas:
+                "header header"
+                "sidebar content"
+                "footer footer";
+            min-height: 50vh;
+        }
+
+        header {
+            grid-area: header;
+            background-color:#1fb5cf;
+            color:black;
+            padding: 8.5px;
+            text-align:center;
+        }
+
+        aside {
+            grid-area: sidebar;
+            background-color: #d463ac;
+            padding: 10px;
+	        font: italic;
+        }
+
+        main {
+            grid-area: content;
+            background-color:#d9ed3e;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: #279fba;
+            color:black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        ul li  {
+            list-style:none;        }
+
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* Media Query for Mobile */
+        @media (max-width: 768px) {
+            	.container {
+                grid-template-columns: 1fr;
+                grid-template-areas:
+                    "header"
+                    "content"
+                    "sidebar"
+                    "footer";
+                }
+            }
+
+            
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1><i>TAYLOR SWIFT</i></h1>
+            <p>December 13, 1989</p>
+	        <p>American singer-song writer</p>
+           
+            
+        </header>
+ 
+        <aside>
+                       <h2>Albums</h2>
+                <ul>
+                <li><i>Taylor Swift/Debut</i></li>
+                <li><i>Fearless</i></li>
+                <li><i>Speak Now</i></li>
+                <li><i>Red</i></li>
+		        <li><i>1989</i></li>
+		        <li><i>Reputation</i></li>
+		        <li><i>Lover</i></li>
+		        <li><i>Folklore</i></li>
+		        <li><i>Evermore</i></li>
+		        <li><i>Midnights</i></li>
+		        <li><i>The Tortured Poets Department</i></li>
+		        <li><i>The Life of A Showgirl</i></li>
+	 </ul>
+    </aside>
+
+        <main>
+            <h2><em><i>Taylor Alison Swift</i></em></h2>
+
+             <img src="swift - Copy.jpg"  alt="" width="700px" height="250px">
+
+            <p> is a globally influential American singer-songwriter, known for narrative songs about her life,
+                 artistic reinventions, and massive commercial success, becoming the first musician to become a billionaire
+                  solely from music, with numerous records, 14 Grammy wins (including 4 Album of the Year awards), and an iconic
+                   cultural impact. She started in country music, evolved through pop, folk, and more, and is celebrated for her
+                   storytelling, business savvy (like re-recording albums), and huge fanbase, the "Swiftie"
+
+	  <li><strong>Born</strong>:December 13, 1989, in West Reading, Pennsylvania.</li>
+
+ 	 <li><strong>Career Start</strong>:Began songwriting young, moved to Nashville, signed with Big Machine Records, and debuted as a country artist in 2006.</li>
+
+	  <li><strong>Musical Style</strong>:Evolved from country pop (Fearless) to pop (1989) and explored folk/indie (folklore, evermore).</li>
+
+	  <li><strong>Songwriting</strong>:Famous for autobiographical, relatable lyrics and "Easter eggs" (hidden messages).</li>
+
+	  <li><strong>"The Eras Tour"</strong>:Her recent global tour became the highest-grossing concert tour ever.</li>
+
+ 	 <li><strong>Albums</strong>:Has released numerous studio albums, including her re-recorded "Taylor's Version" albums. </li>
+
+</p>
+        </main>
+
+        <footer>
+            <p> <i>"Hope I Never Loss You"</i>-Taylor Swift</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
